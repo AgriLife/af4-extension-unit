@@ -1,0 +1,22 @@
+/* Override AgriFlex4 settings with a !default value. */
+$nat-green: #0C6C31;
+$nat-brown: #82591F;
+$nav-yellow: #FFE404;
+
+$af4-colors: (
+	primary: $nat-green,
+	primary-light: $nat-brown,
+	secondary: $nat-brown,
+	anchor: $nat-green,
+	footer-anchor-hover: $nav-yellow,
+	success: #3ADB76,
+	warning: #FFAE00,
+	alert: #CC4B37,
+);
+
+$foundation-palette: $af4-colors;
+
+$primary-color: map-get($af4-colors, primary);
+$secondary-color: map-get($af4-colors, secondary);
+
+$blockquote-color: map-get($af4-colors, primary);
