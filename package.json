@@ -1,6 +1,6 @@
 {
   "name": "af4-extension-unit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "AgriFlex4 variation for AgriLife Extension Unit websites.",
   "main": "af4-extension-unit.php",
   "scripts": {
